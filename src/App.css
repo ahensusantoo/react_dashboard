@@ -55,6 +55,7 @@ li{
 
 .icon{
   font-size: var(--h2FontSize);
+  cursor: pointer;
 }
 
 .img{
@@ -79,8 +80,9 @@ li{
   cursor: pointer;
   border-radius: 8px;
   box-shadow: 0 2px 4px var(--InputColor);
-  padding: 8rem 1rem;
+  padding: .8rem 1rem;
   color: var(--TextColor);
+  height: auto;
 }
 
 .btn .icon{
@@ -111,4 +113,10 @@ body{
   overflow: hidden;
   border-radius: 1rem;
   box-shadow: 2px 2px 8px var(--grayText);
+}
+
+/* hide scrool */
+::-webkit-scrollbar{
+  display: none;
+
 }

@@ -3,6 +3,8 @@ import './Sidebar.css';
 import './Sidebar.scss';
 import logo from '../../assets/Logo.jpg';
 import { IoMdSpeedometer } from 'react-icons/io';
+import { CiCircleQuestion } from "react-icons/ci";
+
 
 const Sidebar = () => {
   return (
@@ -58,6 +60,19 @@ const Sidebar = () => {
             </a>
           </li>
         </ul>
+      </div>
+
+      <div className='sidebarCard'>
+        <CiCircleQuestion  className='icon'/>
+        <div className="cardContent">
+          <div className="cicrle1"></div>
+          <div className="cicrle2"></div>
+          <h3>Help Center</h3>
+          <p>jika ada permasalahan dapat hubungi kontak</p>
+          <button className='btn'>
+            hub helper
+          </button>
+        </div>
       </div>
     </div>
   );
